@@ -1,0 +1,25 @@
+.chipsList {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 8px;
+	align-items: center;
+}
+
+.moreButton {
+	height: 32px;
+	padding: 0 12px;
+
+	background-color: transparent;
+	border: 1px solid #1976d2;
+	border-radius: 16px;
+
+	color: #1976d2;
+	font-size: 14px;
+	font-weight: 500;
+
+	cursor: pointer;
+
+	&:hover {
+		background-color: rgba(25, 118, 210, 0.04);
+	}
+}

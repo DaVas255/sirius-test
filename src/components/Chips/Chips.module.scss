@@ -1,0 +1,17 @@
+.chips {
+	display: flex;
+	justify-content: center;
+	width: 60px;
+	padding: 8px 16px;
+
+	border: 1px solid transparent;
+	border-radius: 20px;
+	background-color: #e5daf6;
+
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.active {
+	border-color: #000000;
+}
